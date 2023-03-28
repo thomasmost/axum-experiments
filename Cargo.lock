@@ -10,6 +10,7 @@ dependencies = [
  "handlers",
  "http",
  "hyper",
+ "shared",
  "timber",
  "tokio",
  "tower-http",
@@ -215,7 +216,9 @@ dependencies = [
 name = "handlers"
 version = "0.1.0"
 dependencies = [
+ "axum",
  "rayon",
+ "shared",
  "timber",
 ]
 
@@ -567,6 +570,10 @@ checksum = "900fba806f70c630b0a382d0d825e17a0f19fcd059a2ade1ff237bcddf446b31"
 dependencies = [
  "lazy_static",
 ]
+
+[[package]]
+name = "shared"
+version = "0.1.0"
 
 [[package]]
 name = "smallvec"

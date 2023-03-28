@@ -3,5 +3,6 @@
 members = [
     "api",
     "handlers",
+    "shared",
     "timber"
 ]
